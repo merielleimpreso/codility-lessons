@@ -11,7 +11,7 @@ the elements at indexes 4 and 6 have value 9, <br/>
 the element at index 5 has value 7 and is unpaired. <br/><br/>
 Write a function:<br/>
 >**int solution(int A[], int N);**
-that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.<br/><br/>
+<br/><br/>that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.<br/><br/>
 
 For example, given array A such that:<br/>
 
