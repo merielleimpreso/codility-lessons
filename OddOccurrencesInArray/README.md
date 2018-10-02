@@ -9,9 +9,9 @@ the elements at indexes 0 and 2 have value 9, <br/>
 the elements at indexes 1 and 3 have value 3, <br/>
 the elements at indexes 4 and 6 have value 9, <br/>
 the element at index 5 has value 7 and is unpaired. <br/><br/>
-Write a function:<br/>
->**int solution(int A[], int N);**
-<br/><br/>that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.<br/><br/>
+>Write a function:<br/>
+>>**int solution(int A[], int N);**
+<br/>that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.<br/><br/>
 
 For example, given array A such that:<br/>
 
