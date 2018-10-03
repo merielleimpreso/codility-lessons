@@ -4,10 +4,10 @@ The goal is to rotate array A K times; that is, each element of A will be shifte
 
 Assume that the following declarations are given: <br/>
 
-> struct Results {
-  > int * A;
-  > int N; // Length of the array
-> };
+    struct Results {
+      int * A;
+      int N; // Length of the array
+    };
 
 Write a function: <br/>
 
@@ -17,26 +17,26 @@ that, given an array A consisting of N integers and an integer K, returns the ar
 
 For example, given <br/>
 
-    > A = [3, 8, 9, 7, 6]
+      A = [3, 8, 9, 7, 6]
       K = 3
 
 the function should return [9, 7, 6, 3, 8]. Three rotations were made: <br/>
 
-    > [3, 8, 9, 7, 6] -> [6, 3, 8, 9, 7]
+      [3, 8, 9, 7, 6] -> [6, 3, 8, 9, 7]
       [6, 3, 8, 9, 7] -> [7, 6, 3, 8, 9]
       [7, 6, 3, 8, 9] -> [9, 7, 6, 3, 8]
 
 For another example, given <br/>
-    > A = [0, 0, 0]
+      A = [0, 0, 0]
       K = 1
 
 the function should return [0, 0, 0] <br/>
 
 Given <br/>
 
-    > A = [1, 2, 3, 4]
+      A = [1, 2, 3, 4]
       K = 4
-      
+
 the function should return [1, 2, 3, 4] <br/>
 
 Assume that: <br/>
