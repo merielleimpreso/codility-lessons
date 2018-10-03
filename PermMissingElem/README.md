@@ -4,16 +4,16 @@ Your goal is to find that missing element.<br/>
 
 Write a function:<br/>
 
-    function solution(A);<br/>
+    function solution(A);
 
-    that, given an array A, returns the value of the missing element.<br/>
+    that, given an array A, returns the value of the missing element.
 
 For example, given array A such that:<br/>
 
-    A[0] = 2<br/>
-    A[1] = 3<br/>
-    A[2] = 1<br/>
-    A[3] = 5<br/>
+    A[0] = 2
+    A[1] = 3
+    A[2] = 1
+    A[3] = 5
 the function should return 4, as it is the missing element.<br/>
 
 Write an efficient algorithm for the following assumptions:<br/>
